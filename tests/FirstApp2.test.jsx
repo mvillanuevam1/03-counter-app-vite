@@ -26,7 +26,8 @@ describe('Pruebas en <FirstApp />', () => {
     test('debe mostrar el mensaje "Hola, soy Goku', () => {
 
         render(
-            <FirstApp title={title}
+            <FirstApp
+                title={title}
             
 
 
@@ -42,9 +43,9 @@ describe('Pruebas en <FirstApp />', () => {
     test('debe de mostrar el titulo en un h1 ', () => {
 
         render(
-            <FirstApp title={title}
-            
+            <FirstApp
 
+                title={title}
             
             />
         );
